@@ -1,4 +1,4 @@
-# Notifier-of-expiring-password
+# Expiring password notifier
 Notifier created in powershell 
 
 1. Script and all stuff must be embedded into C:\Skrypty\PasswordExpired or you can change paths inside script
