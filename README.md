@@ -1,5 +1,6 @@
 # Expiring password notifier
 Notifier created in powershell 
+This script sending emails to Active Directory users which password going to expire in several days.
 
 1. Script and all stuff must be embedded into C:\Skrypty\PasswordExpired or you can change paths inside script
 
