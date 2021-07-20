@@ -122,29 +122,29 @@ foreach($user in $users)
             Hello $name,
             <br>
             <p>$expirationMessage<br>
-            To reset your password please, follow the instructions below.</p><br/>
-            <ol><br/>
-              <li>If you are working from office, you don’t need any preparations- go to p.3</li><br/>
-              <li>If you are working remotely from home, connect to your standard VPN as always:<br/>
-              <ul><br/>
-              <li>FortiCLient --> Open FortiClient Console and then connect to VPN config.</li><br/>
-              <li>Check twice correct connection in FortiClient.</li><br/>
-              </ul><br/>
-              </li><br/>
-             <li>Reset your computer password.<br/>
-                <ul><br/>
-                <br><br/>
-                 <li>For MacOS: Apple menu -> system preferences -> users and groups -> change password.</li><br/>
-                 <ul><li> KB Apple - https://support.apple.com/pl-pl/guide/mac-help/mchlp1550/mac</li></ul><br/>
-                  <br><br/>
-                 <li>For Windows: Select Start -> Settings -> Accounts -> Sign-in options -> Select Reset password.</li><br/>
-                 <ul><li> KB Windows - https://support.microsoft.com/en-us/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c</li></ul><br/>
-                 </ul><br/>
-                 </li><br/>
-             <li>Restart your computer.</li><br/>
-            </ol><br/>
-            <p style='text-transform:uppercase;font-weight:bold;'>DO NOT REPLY TO THIS MESSAGE.<p>Emails sent to the sender's address are not read.<br><br/>
-If you have a question or problem, register a request in the JIRA Service Desk</p></p><br/>
+            To reset your password please, follow the instructions below.</p>
+            <ol>
+              <li>If you are working from office, you don’t need any preparations- go to p.3</li>
+              <li>If you are working remotely from home, connect to your standard VPN as always:
+              <ul>
+              <li>FortiCLient --> Open FortiClient Console and then connect to VPN config.</li>
+              <li>Check twice correct connection in FortiClient.</li>
+              </ul>
+              </li>
+             <li>Reset your computer password.
+                <ul>
+                <br>
+                 <li>For MacOS: Apple menu -> system preferences -> users and groups -> change password.</li>
+                 <ul><li> KB Apple - https://support.apple.com/pl-pl/guide/mac-help/mchlp1550/mac</li></ul>
+                  <br>
+                 <li>For Windows: Select Start -> Settings -> Accounts -> Sign-in options -> Select Reset password.</li>
+                 <ul><li> KB Windows - https://support.microsoft.com/en-us/windows/change-or-reset-your-windows-password-8271d17c-9f9e-443f-835a-8318c8f68b9c</li></ul>
+                 </ul>
+                 </li>
+             <li>Restart your computer.</li>
+            </ol>
+            <p style='text-transform:uppercase;font-weight:bold;'>DO NOT REPLY TO THIS MESSAGE.<p>Emails sent to the sender's address are not read.<br>
+If you have a question or problem, register a request in the JIRA Service Desk</p></p>
 "@
 
             $message = New-Object System.Net.Mail.MailMessage($emailFrom, $emailTo, $subject, $body)
