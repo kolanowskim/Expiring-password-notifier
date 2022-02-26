@@ -3,8 +3,8 @@ Script for Windows server to sending email notifications to users about their Ac
 
 ## General Information
 - We couldn't use default Windows solution on computers with macOS system. So i decided to make powershell script.
-- Script send emails, so you need to have some mailbox and SMTP server.
-- Script has been writen with Powershell
+- Script sends emails, so you need to have some mailbox and SMTP server.
+- Script has been written in Powershell
 
 ## Setup
 1. Script and all stuff must be embedded into C:\Skrypty\PasswordExpired or you can change paths inside script
